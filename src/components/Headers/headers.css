@@ -1,0 +1,57 @@
+
+.headers{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;  
+    height:60px; 
+  
+}
+
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    text-decoration: none;
+}
+
+.home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    padding: 5px 10px; /*espaçamento da letra para as bordas superior e laterais*/
+    border-radius: 10px; /*arredondar bordas*/
+    cursor: pointer; /*aparece a mãozinha no link*/
+    
+}
+
+.home:hover{
+    background-color: red;
+    color: white;
+
+}
+
+.filme{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    padding: 5px 10px; /*espaçamento da letra para as bordas superior e laterais*/
+    border-radius: 10px; /*arredondar bordas*/
+    cursor: pointer; /*aparece a mãozinha no link*/
+}
+
+.filme:hover{
+    background-color: red;
+    color: white;
+
+}
+
+
+

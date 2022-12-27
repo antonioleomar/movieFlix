@@ -1,0 +1,21 @@
+/*CSS para toda a página*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*CSS para body do HTML*/
+body{ 
+    font-family: sans-serif;      
+}
+
+/* CSS para componente chamado app*/
+.app{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

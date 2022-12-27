@@ -1,0 +1,50 @@
+.filmes-favoritos{
+    margin-top: 25px; 
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filmes-favoritos h1{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.filmes-favoritos span{
+    font-size: 18px;
+}
+
+.filmes-favoritos ul{
+    width: 600px;
+}
+
+.filmes-favoritos ul li{   
+    display: flex;
+    align-items:baseline;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-bottom: 30px;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.filmes-favoritos  a{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.filmes-favoritos button{
+    margin-top: 5px;
+    padding: 5px;  
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.filmes-favoritos button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s;    
+}
